@@ -15,13 +15,12 @@
 ![图2](./2.png)
 
 这两步的旋转矩阵可以写出来
-$$
- \left[
- \begin{matrix}
+```
+ \begin{bmatrix}
     0 & 1 & 0 \\
     -1 & 0 & n - 1 \\
     0 & 0 & 1 \\
- \end{matrix}
- \right]
-$$
+ \end{bmatrix}
+```
+
 ## 代码
